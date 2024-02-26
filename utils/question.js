@@ -51,12 +51,14 @@ function askUser(question){
 }
 
 function askQuestions (obj){
+  return new Promise (async (answer) =>{
+
     inquirer
     .prompt([
       {
         type: 'input',
         message: `
-        hello! welcome to README generator. We'll ask you some questions then generate a README with your responses. press enter to continue
+        hello! welcome to README generator. We'll ask you some questions then generate a README with your responses. if you wish to leave a section blank, press enter to continue pass it. The section title will however still appear in your README file. As always it is reccomended to look over the file for an discrepencies, and to modify as you wish. press enter to continue
         ---------------------------------------------------------------------------
         `,
         name: 'welcome',
@@ -65,11 +67,13 @@ function askQuestions (obj){
     .then(async function (response) {
         for( let response in obj){
           let input = await askUser(obj[response]);
-          obj[response] = input;
+          array = Object.entries(input)
+          obj[response] = array[0][1];
           console.log(obj[response]);
         }
-        
+        answer(obj);
       }
       );
-}
-module.exports = askQuestions;
+    })
+    }
+    module.exports = askQuestions;
