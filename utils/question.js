@@ -37,7 +37,6 @@ function askUser(question){
             type: 'input',
             message: `
             ${question}
-            ---------------------------------------------------------------------------
             `,
             name: `q${questionsAsked}`
           },
@@ -58,8 +57,12 @@ function askQuestions (obj){
       {
         type: 'input',
         message: `
-        hello! welcome to README generator. We'll ask you some questions then generate a README with your responses. if you wish to leave a section blank, press enter to continue pass it. The section title will however still appear in your README file. As always it is reccomended to look over the file for an discrepencies, and to modify as you wish. press enter to continue
-        ---------------------------------------------------------------------------
+        hello! welcome to README generator. We'll ask you some questions 
+        then generate a README with your responses. if you wish to leave 
+        a section blank, press enter to continue pass it. 
+        The section title will however still appear in your README file. 
+        As always it is reccomended to look over the file for an discrepencies, 
+        and to modify as you wish. press enter to continue
         `,
         name: 'welcome',
       },
