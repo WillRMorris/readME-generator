@@ -21,6 +21,7 @@
     to install, simply clone this repo to your hardrive and run it in the commandline. 
 
   ## Usage
+  https://drive.google.com/file/d/1sBAKU0OdMzBMnz5npQDf1skD8Uv7hxYE/view
     to use, run node index.js in an integrated terminal. 
     then follow the prompts, answering the questions until they finish. 
     You should get a "file printed successfully message" once the process is finished. 
