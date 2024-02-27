@@ -11,19 +11,29 @@
   - [License](#license)
   
   ## Description
-    I built this project to condense the amount of time spent making future readmes. By eliminating the need to worry about formatting, this app will allow for readmes that are comprehensive and professional in  no time at all. I learned a lot about  asynchronous functions overlapping, and how most importantly, how to stop the app from running right passed them without waiting for the function to finish.
+    I built this project to condense the amount of time spent making future readmes. 
+    By eliminating the need to worry about formatting, this app will allow for readmes that are 
+    comprehensive and professional in  no time at all. I learned a lot about  asynchronous functions 
+    overlapping, and how most importantly, how to stop the app from running right passed them without 
+    waiting for the function to finish.
 
   ## Installation
     to install, simply clone this repo to your hardrive and run it in the commandline. 
 
   ## Usage
-    to use, run node index.js in an integrated terminal. then follow the prompts, answering the questions until they finish. You should get a "file printed successfully message" once the process is finished. As always, it is reccomended to look over the generated read me and fine tune it to your specifications. there is a chance things like links and images could get lost in the imperfect commandline input format. 
+    to use, run node index.js in an integrated terminal. 
+    then follow the prompts, answering the questions until they finish. 
+    You should get a "file printed successfully message" once the process is finished. 
+    As always, it is reccomended to look over the generated read me and fine tune it to your 
+    specifications. there is a chance things like links and images could get lost 
+    in the imperfect commandline input format. 
 
   ## How to Contribute
     to contribute, simply fork and PR and I will look it over. Always open to outside contribution
 
   ## Tests
-    the best test is simply to run the application! clone it, and run it, throw some sample text into the inputs, see what the file that is generated looks like! For instance, this very README is generated using the application! 
+    the best test is simply to run the application! clone it, and run it, throw some sample text into the inputs, 
+    see what the file that is generated looks like! For instance, this very README is generated using the application! 
 
   ## Questions
     if you have questions you can reach me at 
